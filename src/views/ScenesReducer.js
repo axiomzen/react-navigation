@@ -155,7 +155,6 @@ export default function ScenesReducer(
   // work around for flashing scenes
   let k = null;
   let v = null;
-  debugger;
   staleScenes.forEach((scene: *) => {
     const { key } = scene;
     k = key;
